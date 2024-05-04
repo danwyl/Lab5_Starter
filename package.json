@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "jest": "^29.7.0",
+    "save-dev": "^0.0.1-security"
+  },
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
+  },
+  "jest": {
+    "tranform": {},
+    "verbose": true
+  },
+  "type": "module"
+}
